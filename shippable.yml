@@ -15,4 +15,4 @@ build:
    
     - node --version
     - sudo docker ps -a  
-    - echo $pullRequestRepoFullName
+    - echo $PULL_REQUEST_REPO_FULL_NAME 
