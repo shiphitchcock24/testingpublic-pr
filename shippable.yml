@@ -1,0 +1,17 @@
+language: node_js
+
+# Version number
+node_js:
+  - 0.10      
+  - 0.12
+  - 4.2.3  
+      
+env:
+  - env=test1
+
+    
+build:      
+  ci:      
+   
+    - node --version
+    - sudo docker ps -a  
